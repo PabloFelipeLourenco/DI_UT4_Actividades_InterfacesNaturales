@@ -1,0 +1,21 @@
+name: lista_voz
+description: Actividad 1 de UT2 - Lista controlada por voz.
+publish_to: none
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.12.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  speech_to_text: ^7.5.0
+  flutter_tts: ^4.2.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
